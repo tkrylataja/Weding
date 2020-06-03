@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background: url(img/header_bg.jpg) 50% 50% no-repeat;
+  background: url(../img/header_bg.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: white;
   overflow-x: hidden;
@@ -226,7 +226,7 @@ header .desc {
 }
 
 .rectangle_ln::after {
-  content: url(img/single_arrow.png);
+  content: url(../img/single_arrow.png);
   position: absolute;
   top: 16px;
   right: 0;
@@ -361,7 +361,7 @@ header .desc {
 
 /* форма заявки */
 #forma {
-  background: url(img/header_bg.jpg) 50% 100% no-repeat;
+  background: url(../img/header_bg.jpg) 50% 100% no-repeat;
   color: white;
   background-size: cover;
 }
@@ -406,7 +406,7 @@ header .desc {
 
 
 #video, #formSection {
-  background: url(img/header_bg.jpg) 50% 100% no-repeat;
+  background: url(../img/header_bg.jpg) 50% 100% no-repeat;
   color: white;
   background-size: cover;
 }
@@ -462,7 +462,7 @@ h2 {
   letter-spacing: .18px;
 }
 .whyWe .desc::before {
-  content: url(img/double_arrow.png);
+  content: url(../img/double_arrow.png);
   position: absolute;
   top: 40px;
   left: 32px;
@@ -578,7 +578,7 @@ h2 {
 } 
 
 #contacts {
-  background: url(img/bg_contact.jpg) no-repeat 50% 50%;
+  background: url(../img/bg_contact.jpg) no-repeat 50% 50%;
   background-size: cover;
   color: white;
   font-size: 24px;
@@ -635,7 +635,7 @@ footer .menu_block {
   border-top: 2px solid white;
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url(img/burger.png)
+  background-image: url(../img/burger.png)
 }
 .navbar-light .navbar-toggler {
   border: none;
