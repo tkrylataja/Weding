@@ -1,20 +1,21 @@
 @font-face {
   font-family: "VHS";
-  src: url(/fonts/OldStandardTT-Regular.ttf);
+  src: url(/fonts/vhs.otf);
 }
 
 @font-face {
   font-family: "VHS";
-  src: url(/fonts/OldStandardTT-Italic.ttf);
+  src: url(/fonts/vhsi.otf
   font-style: italic;
 }
+
 textarea,
 input[type="text"],
 input[type="email"],
 input[type="button"],
 input[type="submit"] {
-     -webkit-appearance: none;
-     border-radius: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -182,6 +183,12 @@ header .desc {
   background: #fff;
 }
 
+@media (min-width: 965px) {
+  .galery_grid {
+    max-width: 964px;
+    margin: auto;
+  }
+}
 /* clear fix */
 .galery_grid:after {
   content: '';
@@ -371,18 +378,19 @@ header .desc {
   text-align: center;
   padding: 10px 15px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin: auto;
   margin-top: 20px;
-  width: 200px;
+  width: 250px;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.15);
   transition: all .5s;
 }
 .request_input{
+  border: 1px solid #fff;
+  color: #fff;
   padding: 10px 15px;
-  width: 300px;
   cursor: text;
   text-align: left;
 }
@@ -396,7 +404,7 @@ header .desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
-  color: #c0a07a;
+  color: #fff;
 }
 .request_button:hover {
   border: 1px solid #fff;
@@ -555,21 +563,16 @@ h2 {
   cursor: pointer;
 }
 #blog .read_more {
-  border: 1px solid #0d0c0a;
-  color: #1c1c1c;
+  color: #c0a07a;
   text-align: center;
   padding: 6px 10px;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   margin: auto;
   margin-top: 20px;
-  max-width: 240px;
+  max-width: 150px;
   cursor: pointer;
-}
-#blog .read_more:hover {
-  border: 1px solid #c0a07a;
-  color: #c0a07a;
+  border-bottom: 2px solid #c0a07a;
 }
 
 
