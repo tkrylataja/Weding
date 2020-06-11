@@ -345,21 +345,7 @@
       </div>
     </div>
   </section>
-  <section id="forma">
-    <div class="container">
-      <div class="row">
-        <div class="text-center mx-auto">
-          <h2>Оставьте Заявку</h2>
-          <div class="desc">Nor again is there anyone who loves or purs</div>
-          <form action="url" class="request">
-            <input type="text" pattern="[A-Za-zА-Яа-яЁё]" class="request_input" placeholder="Ваше имя">
-            <input type="tel" pattern="[0-9]{10,12}"  maxlength="12" class="request_input" placeholder="Ваш телефон">
-            <button type="submit" class="request_button">Отправить заявку</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <script>
     var itemNum = 0;
     var slides = document.getElementsByClassName('review_block');
@@ -480,37 +466,23 @@
         </div>
       </div>
 
-      <div class="row blog_more">
-        <div class="col-12 col-md-4 item">
-            <div class="post_img"><img src="img/b3.png" alt=""></div>
-            <div class="title">Как выбрать свою
-              локацию?</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-              ex ea commodo consequat. </p>
-            <div class="read_all">Читать статью полностью</div>
-          </div>
-        <div class="col-12 col-md-4 item">
-              <div class="post_img"><img src="img/b3.png" alt=""></div>
-              <div class="title">Как выбрать свою
-                локацию?</div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. </p>
-              <div class="read_all">Читать статью полностью</div>
-          </div>
-        <div class="col-12 col-md-4 item">
-                <div class="post_img"><img src="img/b3.png" alt=""></div>
-                <div class="title">Как выбрать свою
-                  локацию?</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                  ex ea commodo consequat. </p>
-                <div class="read_all">Читать статью полностью</div>
-          </div>
-      </div>
-      <div class="read_more">Ещё...</div>
+      <a href="blog.html" class="read_more">Ещё...</a>
 
+    </div>
+  </section>
+  <section id="forma">
+    <div class="container">
+      <div class="row">
+        <div class="text-center mx-auto">
+          <h2>Оставьте Заявку</h2>
+          <div class="desc">Nor again is there anyone who loves or purs</div>
+          <form action="url" class="request">
+            <input type="text" pattern="[A-Za-zА-Яа-яЁё]" class="request_input" placeholder="Ваше имя">
+            <input type="tel" pattern="[0-9]{10,12}"  maxlength="12" class="request_input" placeholder="Ваш телефон">
+            <button type="submit" class="request_button">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
   <section id="contacts">
@@ -692,17 +664,6 @@
       });
     });
 
-    $(document).ready(function(){
-      $('.read_more').on('click', function() {
-        $('.blog_more').css('display', 'flex');
-      });
-    });
-
-    $(document).ready(function(){
-      $('.read_more').on('click', function() {
-        $('.read_more').css('display', 'none');
-      });
-    });
 
 
   </script>

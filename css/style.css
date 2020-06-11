@@ -574,10 +574,11 @@ h2 {
   max-width: 150px;
   cursor: pointer;
   border-bottom: 2px solid #c0a07a;
+  text-decoration: none;
 }
 
 
-#blog .blog_item, .read_more, .blog_more {
+#blog .blog_item, .read_more {
   display: none;
 } 
 
@@ -1018,9 +1019,7 @@ footer .menu_block {
   #blog .blog_item {
     display: flex;
   } 
-  #blog .blog_more {
-    display: none;
-  } 
+
   #blog .read_more {
     display: block;
   } 
