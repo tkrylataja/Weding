@@ -35,10 +35,27 @@
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+  
+  
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  console.log(response)
+});
+  
+  function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+    console.log(response)
+  });
+}
 </script>
 </head>
 
 <body>
+  <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
   <header>
     <div>
       <div class="row">
